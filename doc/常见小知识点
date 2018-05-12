@@ -1,0 +1,4 @@
+//vue中获取上一个兄弟节点,下一个兄弟节点
+ previousElementSibling ,nextElementSibling
+ //原生js获取上一个,下一个节点
+ previousSibling,nextSibling

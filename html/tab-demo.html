@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF to Word</title>
+    <link rel="stylesheet" href="../css/pdf_word.css">
+    <script src="../js/pdf_word.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="content">
+        <div class="text">
+            <div class="textTitle"></div>
+            <div class="textContent"></div>
+        </div>
+
+        <div class="detailInfo">
+            <div id="tabNav">
+                <ul>
+                    <li onclick="tab('tab1')">标题一</li>
+                    <li onclick="tab('tab2')">标题二</li>
+                </ul>
+            </div>
+            <div id="tab">
+                <div id="tab1">
+                    <div class="tab1Content">
+                        <span>呵呵</span>
+                    </div>
+                </div>
+                <div id="tab2" style="display: none">
+                    <div class="tab2Content">
+                        <span>哈哈</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
